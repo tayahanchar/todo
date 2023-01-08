@@ -40,7 +40,7 @@ function createNewToDo(id, text, status, callback) {
   buttonItem.classList.add('delete');
   const imgItem = document.createElement('img');
   imgItem.classList.add('button__img');
-  imgItem.src = '/assets/cross.png';
+  imgItem.src = './assets/cross.png';
   imgItem.alt = 'cross';
 
   list.append(listItem);
